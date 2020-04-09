@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0fa590754cc418163a53481db74779b1",
+    "revision": "b77804470e4d599b9306e199252761c9",
     "url": "/IRCTC/index.html"
   },
   {
-    "revision": "d035f48932e2eb1bd3f4",
+    "revision": "ed3027dce25339fc82bb",
     "url": "/IRCTC/static/css/main.1662d647.chunk.css"
   },
   {
-    "revision": "36928809e3237b0d48b4",
-    "url": "/IRCTC/static/js/2.b51ecc12.chunk.js"
+    "revision": "f884bd657a65be357be5",
+    "url": "/IRCTC/static/js/2.25ab35e1.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/IRCTC/static/js/2.b51ecc12.chunk.js.LICENSE.txt"
+    "url": "/IRCTC/static/js/2.25ab35e1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d035f48932e2eb1bd3f4",
-    "url": "/IRCTC/static/js/main.e77e2086.chunk.js"
+    "revision": "ed3027dce25339fc82bb",
+    "url": "/IRCTC/static/js/main.fac73acf.chunk.js"
   },
   {
     "revision": "8108d36c86813a446852",
