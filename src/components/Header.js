@@ -14,8 +14,11 @@ export default function Header() {
 
   return (
     <header className="d-flex justify-content-between align-items-center p-2 fixed-top bg">
-      <div className="logo">
-        <img src={inr} alt="inr-logo"  className="img-fluid"/>
+      <div className="d-flex align-items-center">
+        <div className="logo">
+          <img src={inr} alt="inr-logo" className="img-fluid" />
+        </div>
+        <h5 className="text-center show px-3">Indian Railways</h5>
       </div>
       <div className="d-flex px-2 align-items-center">
         <div className="d-flex align-items-end flex-column">
@@ -36,7 +39,7 @@ export default function Header() {
             <img src={irctc} alt="irctc-logo" className="img-fluid" />
           </div>
           <div className="bars  px-2" onClick={() => handleToggle()}>{
-            toggle ? <i class="fas fa-times"></i> : <i class="fas fa-bars"></i>
+            toggle ? <i className="fas fa-times"></i> : <i className="fas fa-bars"></i>
           }
           </div>
         </div>

@@ -11,7 +11,7 @@ import {
 function App() {
   return (
     <div className="app">
-      <Router>
+      <Router basename={window.location.pathname || ''}>
         <Switch>
           <Route path="/" exact component={Search} />
           <Route path="/list" component={List} />

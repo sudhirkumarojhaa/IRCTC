@@ -13,20 +13,42 @@ p {
   padding: 0;
 }
 
+.form-control {
+  margin: 0 !important;
+  margin-top: 10px !important;
+}
+
 .content {
-  background: url('https://invest-india-revamp-static-files.s3.ap-south-1.amazonaws.com/s3fs-public/2019-07/railway4.jpg')
-    no-repeat center;
+  background: url('https://invest-india-revamp-static-files.s3.ap-south-1.amazonaws.com/s3fs-public/2019-07/railway4.jpg') no-repeat center;
   background-size: cover;
   height: 90vh;
   margin-top: 76px;
+}
+
+.ex {
+  display: block;
+  margin: 0 auto;
+  width: 20px;
+  padding-top: 4px;
+}
+
+.train-row {
+  box-shadow: 1px 1px 20px #e3e3e3;
 }
 
 .list {
   margin-top: 76px;
 }
 
+.form-radio-label,
 .nav-link {
-  padding-left: 2px;
+  padding-left: 10px;
+}
+
+.colorBox {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
 }
 
 .menuModal {
@@ -45,6 +67,10 @@ p {
 
 .custom-option {
   font-size: 10px;
+}
+
+.form-group {
+  margin: 0;
 }
 
 .logo {
@@ -71,6 +97,10 @@ p {
 .top-menu {
   font-size: 10px;
   padding-right: 16px;
+}
+
+.top-bar {
+  width: 83%;
 }
 
 .bars {
@@ -107,33 +137,19 @@ footer p {
   .logo {
     width: 45px;
   }
-
-  .filters {
-    flex-direction: row !important;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-
-  .sidebar {
-    width: 100%;
-    z-index: 100;
-    border: 0;
-    top: 45px;
-    border-bottom: 2px solid #e3e3e3;
-    background-color: white;
-    height: 25%;
-  }
-
   .scroll {
     margin: 0;
-    margin-top: 30%;
     width: 100%;
   }
 
   .bars,
   .nav {
     display: block;
+  }
+
+  .col-row-res {
+    flex-direction: row !important;
+    padding: 0 !important
   }
 
   .col-res {

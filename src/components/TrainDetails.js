@@ -1,14 +1,14 @@
 import React from 'react';
 
-export default function TrainDetails() {
+export default function TrainDetails({trainName, trainNumber,from,to,arrival,departs,duration,style,iconArrival,iconDepart,status,show,onClick,onClickHide}) {
   return (
-    <div className="row shadow p-3 bg-white mb-5 m-3">
+    <div className="row train-row p-3 bg-white m-3 align-items-center" style={style}>
       <div className="col-sm-3 col-res">
         <div>
-        <p className="text-uppercase small text-primary font-weight-bold"> <i class="fas fa-train"></i> Ajmer Shatabdi (12896)</p>
+        <p className="text-uppercase small text-primary font-weight-bold"> <i className="fas fa-train"></i> {trainName} ({trainNumber})</p>
         </div>
         <div>
-        <p className="text-uppercase small text-primary font-weight-regular">Jaipur - Gurgaon</p>
+        <p className="text-uppercase small text-primary font-weight-regular">{from} - {to}</p>
         </div>
         <div>
           <p className="small text-primary font-weight-bold">Depart on: All Days</p>
@@ -17,22 +17,22 @@ export default function TrainDetails() {
       <div className="col-sm-5">
         <div className="row d-flex justify-content-around align-items-center">
           <div className="d-flex flex-column align-items-center">
-            <i class="fas fa-cloud-sun text-primary"></i>
-            <p className="small font-weight-bold  py-2">06:35</p>
+            {iconArrival}
+            <p className="small font-weight-bold  py-2">{arrival}</p>
           </div>
           <div className="d-flex flex-column align-items-center">
-            <i class="far fa-moon text-primary"></i>
-            <p className="small font-weight-bold py-2">16:35</p>
+            {iconDepart}
+            <p className="small font-weight-bold py-2">{departs}</p>
           </div>
           <div className="d-flex flex-column align-items-center">
-            <i class="far fa-clock text-primary"></i>
-            <p className="small font-weight-bold  py-2">10:00</p>
+            <i className="far fa-clock text-primary"></i>
+            <p className="small font-weight-bold  py-2">{duration}</p>
           </div>
         </div>
       </div>
       <div className="col-sm-2">
-        <div class="form-group btn-sm small">
-          <select class="form-control custom-option" id="sel1">
+        <div className="form-group btn-sm small">
+          <select className="form-control custom-option" id="sel1">
             <option>All Classes</option>
             <option>Anubhuti Class (EA)</option>
             <option>AC First Class (1A)</option>
@@ -45,7 +45,12 @@ export default function TrainDetails() {
         </div>
       </div>
       <div className="col-sm-2 col-res">
-        <button type="button" className="btn btn-primary btn-sm custom-option font-weight-bold ">Check Availability & Fare</button>
+        {show ?
+        <div className="d-flex flex-column align-items-center">
+          <p className="small font-weight-bold text-success text-uppercase text-center  py-2">Available {status}</p>
+          <button type="button" className="btn btn-primary btn-sm custom-option font-weight-bold mx-auto w-auto" onClick={onClickHide}>Book Now</button>
+          </div> : <button type="button" className="btn btn-primary btn-sm custom-option font-weight-bold " onClick={onClick}>Check Availability & Fare</button>
+          }
       </div>
     </div>
   )

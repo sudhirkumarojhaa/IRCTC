@@ -3,7 +3,7 @@ import React from 'react'
 export const InputText =({placeholder,value,onChange}) =>{
   return (
     <div>
-      <input type="text" onChange={onChange} className="form-control my-3" placeholder={placeholder} value={value}/>
+      <input type="text" onChange={onChange} className="form-control my-3 text-capitalize" placeholder={placeholder} value={value}/>
     </div>
   )
 }
@@ -20,8 +20,8 @@ export const InputDate = ({value,onChange}) => {
 
 export const InputSelect = ({ value, onChange }) => {
   return (
-    <div class="form-group">
-      <select class="form-control" id="sel1" value={value} onChange={onChange}>
+    <div className="form-group">
+      <select className="form-control" id="sel1" value={value} onChange={onChange}>
         <option>All Classes</option>
         <option>Anubhuti Class (EA)</option>
         <option>AC First Class (1A)</option>
