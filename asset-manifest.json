@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/IRCTC/static/css/main.62abdb2f.chunk.css",
+    "main.css": "/IRCTC/static/css/main.0e1ae0b0.chunk.css",
     "main.js": "/IRCTC/static/js/main.64a80c14.chunk.js",
     "main.js.map": "/IRCTC/static/js/main.64a80c14.chunk.js.map",
     "runtime-main.js": "/IRCTC/static/js/runtime-main.849e550a.js",
@@ -8,17 +8,16 @@
     "static/js/2.b193fd7a.chunk.js": "/IRCTC/static/js/2.b193fd7a.chunk.js",
     "static/js/2.b193fd7a.chunk.js.map": "/IRCTC/static/js/2.b193fd7a.chunk.js.map",
     "index.html": "/IRCTC/index.html",
-    "precache-manifest.6b7ace0d6b5ba9ba8f79136ed1f6d264.js": "/IRCTC/precache-manifest.6b7ace0d6b5ba9ba8f79136ed1f6d264.js",
+    "precache-manifest.a4ba72fa15ba692266ad8f61784ed326.js": "/IRCTC/precache-manifest.a4ba72fa15ba692266ad8f61784ed326.js",
     "service-worker.js": "/IRCTC/service-worker.js",
-    "static/css/main.62abdb2f.chunk.css.map": "/IRCTC/static/css/main.62abdb2f.chunk.css.map",
+    "static/css/main.0e1ae0b0.chunk.css.map": "/IRCTC/static/css/main.0e1ae0b0.chunk.css.map",
     "static/js/2.b193fd7a.chunk.js.LICENSE.txt": "/IRCTC/static/js/2.b193fd7a.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/IRCTC/static/media/bg.e15ca8cf.jpg",
     "static/media/inr.png": "/IRCTC/static/media/inr.c8baa567.png"
   },
   "entrypoints": [
     "static/js/runtime-main.849e550a.js",
     "static/js/2.b193fd7a.chunk.js",
-    "static/css/main.62abdb2f.chunk.css",
+    "static/css/main.0e1ae0b0.chunk.css",
     "static/js/main.64a80c14.chunk.js"
   ]
 }
