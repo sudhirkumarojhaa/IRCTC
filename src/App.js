@@ -10,14 +10,12 @@ import {
 
 function App() {
   return (
-    <div className="app">
-      <Router basename={window.location.pathname || ''}>
-        <Switch>
-          <Route path="/" exact component={Search} />
-          <Route path="/list" component={List} />
-        </Switch>
-      </Router>
-    </div>
+    <Router basename={window.location.pathname || ''}>
+      <Switch>
+        <Route path="/" exact component={Search} />
+        <Route path="/list" component={List} />
+      </Switch>
+    </Router>
   );
 }
 

@@ -29,12 +29,10 @@ export default function ListItem(props) {
       }
       return item;
     })
-    console.log(newArr)
     setData(newArr)
   }
 
   const handleToggleHide = (items) => {
-    console.log(items)
     const newArr = data.filter(item => {
       if (item.trainNumber === items) {
         item.toggle = false
@@ -146,8 +144,8 @@ export default function ListItem(props) {
                 <p className="font-weight-bold small">Availability</p>
               </div>
             </div>
-            <div className="my-5">
-              <p className="font-weight-bold  text-info text-center small py-3"> Search Result: {searchArray.length} Trains found</p>
+            <div className="pad">
+              <p className="font-weight-bold  text-success text-center small py-3"> Search Result: {searchArray.length} Trains found</p>
               {searchArray.length !==0   ? searchArray.map(item=>
                 <TrainDetails from={item.from}
                   trainName={item.trainName}
@@ -165,8 +163,8 @@ export default function ListItem(props) {
                   style={{ borderLeft: '10px solid', borderColor: colorCode}}/>
               ) :
                 <div className="d-flex justify-content-center align-items-center flex-column bg-white p-5">
-                  <h1><i className="fas fa-train text-warning"></i></h1>
-                  <h4 className="font-weight-bold  text-danger text-center">No Trains Found</h4>
+                  <i className="fas fa-train text-info my-2"></i>
+                  <h6 className="font-weight-bold  text-danger text-center">No Trains Found</h6>
                  </div>}
             </div>
           </div>

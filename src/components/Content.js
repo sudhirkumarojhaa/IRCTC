@@ -28,7 +28,7 @@ export default function Content() {
   }
 
   return (
-    <section className="content">
+    <section className="content d-flex align-items-center vh-100">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-5">
@@ -45,9 +45,9 @@ export default function Content() {
               <button type="button" className="btn btn-primary w-100 my-2 mt-4" disabled={!enabled} onClick={()=> handleSubmit()}>Find Trains</button>
               </div>
             </div>
-           <div className="col-md-7">
+           <div className="col-md-7 hide">
              <div className="banner-content">
-              <h2 className="text-uppercase py-1 font-weight-bold text-white text-center">Indian Railways</h2>
+              <h1 className="text-uppercase py-1 font-weight-bold text-white text-center">Indian Railways</h1>
               <h6 className="text-uppercase font-weight-bold text-white text-center">Safety | Security | Punctuality</h6>
             </div>
           </div>
