@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/IRCTC/precache-manifest.e716b15b27127d1cb61f8fcce82c3ddd.js"
+  "/IRCTC/precache-manifest.6b7ace0d6b5ba9ba8f79136ed1f6d264.js"
 );
 
 self.addEventListener('message', (event) => {
