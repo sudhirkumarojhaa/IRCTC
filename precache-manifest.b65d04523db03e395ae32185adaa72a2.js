@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e018517ddca69d98340ed85b79372d64",
+    "revision": "783b4033f7eae90fb8048cd8b1bdbc23",
     "url": "/IRCTC/index.html"
   },
   {
-    "revision": "d4b50c5648352340c9f7",
-    "url": "/IRCTC/static/css/main.0e1ae0b0.chunk.css"
+    "revision": "487d189d149deedef6ca",
+    "url": "/IRCTC/static/css/main.0385449c.chunk.css"
   },
   {
     "revision": "067260e13709bf3f3923",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/IRCTC/static/js/2.b193fd7a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d4b50c5648352340c9f7",
-    "url": "/IRCTC/static/js/main.64a80c14.chunk.js"
+    "revision": "487d189d149deedef6ca",
+    "url": "/IRCTC/static/js/main.7c68ed5d.chunk.js"
   },
   {
     "revision": "8108d36c86813a446852",
     "url": "/IRCTC/static/js/runtime-main.849e550a.js"
+  },
+  {
+    "revision": "ef59f00418cfb4c0d03bacbec87fe20a",
+    "url": "/IRCTC/static/media/bg.ef59f004.jpg"
   },
   {
     "revision": "c8baa5674202d777c89ae0105466e662",
